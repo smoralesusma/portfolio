@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby";
 interface ISeo {
   description?: string;
   lang?: string;
-  meta?: any[];
+  meta?: Array<{name: string, content: string}>;
   title: string;
 }
 
